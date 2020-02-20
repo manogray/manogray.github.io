@@ -1,538 +1,421 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>manogray</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="manogray"/>
-	<meta name="keywords" content="manogray"/>
-	<meta name="author" content="manogray"/>
-	<link rel="shortcut icon" href="terminal.png">
+<!DOCTYPE html>
+<html lang="pt">
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>manogray</title>  
+    <meta name="keywords" content="manogray">
+    <meta name="description" content="">
+    <meta name="author" content="manogray">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="terminal.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="terminal.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+			<div id="loader"></div>  
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
 	
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<img class="img-fluid" style="max-width: 10%;" src="images/boy.png" alt="" />
+		</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#testimonials">Experiência</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	<section id="home" class="main-banner parallaxie" style="background: url('images/sovejoroxo.png')">
+		<div class="heading">
+			<h1>sim, aqui é o manogray</h1>
+			<!--<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>-->
+			<h3 class="cd-headline clip is-full-width">
+				<span class="cd-words-wrapper">
+					<b class="is-visible">Web Developer</b>
+					<b>Embedded System</b>
+					<b>Infosec</b>
+				</span>
+			</h3>
+		</div>
+	</section>
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/luis-natural.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="">Luis Mota</a></h1>
-				<span class="position"><a href="">manogray</a></span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">Sobre</a></li>
-						<li><a href="#" data-nav-section="services">Serviços</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Educação</a></li>
-						<li><a href="#" data-nav-section="experience">Experiência</a></li>
-						<!-- <li><a href="#" data-nav-section="work">Projetos</a></li> -->
-						<li><a href="#" data-nav-section="contact">Contato</a></li>
-					</ul>
+	<svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
+        <path d="M-5 100 Q 0 20 5 100 Z
+            M0 100 Q 5 0 10 100
+            M5 100 Q 10 30 15 100
+            M10 100 Q 15 10 20 100
+            M15 100 Q 20 30 25 100
+            M20 100 Q 25 -10 30 100
+            M25 100 Q 30 10 35 100
+            M30 100 Q 35 30 40 100
+            M35 100 Q 40 10 45 100
+            M40 100 Q 45 50 50 100
+            M45 100 Q 50 20 55 100
+            M50 100 Q 55 40 60 100
+            M55 100 Q 60 60 65 100
+            M60 100 Q 65 50 70 100
+            M65 100 Q 70 20 75 100
+            M70 100 Q 75 45 80 100
+            M75 100 Q 80 30 85 100
+            M80 100 Q 85 20 90 100
+            M85 100 Q 90 50 95 100
+            M90 100 Q 95 25 100 100
+            M95 100 Q 100 15 105 100 Z">
+        </path>
+    </svg>
+
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2>Quem é manogray?</h2>
+                        <p> Olá, eu sou o Luís, graduando em Engenharia da Computação pela Universidade Federal do Amazonas - UFAM. Fui bolsista de TI na Assessoria de Relações Internacionais da UFAM, onde criei um sistema de gerenciamento de editais de mobilidade acadêmica utilizando Grails. Fui interno do programa Summer Job do CESAR - Instituto de Inovação, onde desenvolvi uma rede neural artificial através do Keras, para predição de variação nos dimensionais dos produtos da Mondelez International. Em junho de 2019, assumi como diretor geral e head de Tecnologia do BugHackers Hackerspace, o hackerspace de computação da UFAM. </p>
+						<p>Já participei de 5 hackathons onde foi premiado em 3, no 1º Amazon Hackfest, Global Legal Hackathon Manaus 2019 e no Inova Manaus 2019. Atualmente estou estagiando na divisão de tecnologia do Tribunal de Contas do Estado do Amazonas. Tenho conhecimentos em PHP, JavaScript, Nodejs, Docker, HTML, CSS, SQL, Python e Groovy.</p>
+
+                        <a href="Luis-de-Gonzaga-Mota-Pinto-Filho.pdf" target="_blank" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="images/facao.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+    <div id="services" class="section lb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Serviços</h3>
+                <p>O quê posso fazer?</p>
+            </div><!-- end title -->
+
+            <div class="row">
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-seo"></i>
+						</div>
+						<h2>Desenvolvimento Web</h2>
+						<p>Desenvolvimento de sites utilizando Nodejs, PHP, Django ou Grails.</p>
+					</div>
+                </div><!-- end col -->
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-development"></i>
+						</div>
+						<h2>Desenvolvimento Mobile</h2>
+						<p>Desenvolvimento de aplicativos para smartphone utilizando Ionic Framework ou React Native.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-process"></i>
+						</div>
+						<h2>Desenvolvimento de Software</h2>
+						<p>Desenvolvimento de aplicativos desktop utilizando Python.</p>
+					</div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<!--
+	<div id="portfolio" class="section lb">
+		<div class="container">
+			<div class="section-title text-left">
+                <h3>Portfolio</h3>
+                <p>Projetos realizados</p>
+            </div>
+			
+			<div class="gallery-menu row">
+				<div class="col-md-12">
+					<div class="button-group filter-button-group text-left">
+						<button class="active" data-filter="*">All</button>
+						<button data-filter=".gal_a">Desenvolvimento Web</button>
+						<button data-filter=".gal_b">Desenvolvimento Mobile</button>
+						<button data-filter=".gal_c">Desenvolvimento de Software</button>
+					</div>
 				</div>
-			</nav>
+			</div>
+			
+			<div class="gallery-list row">
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-01.jpg" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-02.jpg" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-03.jpg" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-04.jpg" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-05.jpg" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-05.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_a">
+					<div class="gallery-single fix">
+						<img src="uploads/gallery_img-06.jpg" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/gallery_img-06.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	-->
+	 <div id="testimonials" class="section wb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Experiência</h3>
+                <p>Meus trabalhos </p>
+            </div><!-- end title -->
 
-		</aside>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Tribunal de Contas do Estado do Amazonas</h3>
+                                <p class="lead">Infraestrutura e desenvolvimento de software.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/tce.jpg" alt="" class="img-fluid alignleft">
+                                <h4>Manaus-AM <small>SET 2019</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/hood.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>manogray</h1>
-												<p><a href="Luis-de-Gonzaga-Mota-Pinto-Filho.pdf" class="btn btn-primary btn-learn" download>Download CV <i class="fas fa-file-download"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/code2.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-						   					<h1>Web Development</h1>
-												<p><a href="https://github.com/manogray" target="_blank" class="btn btn-primary btn-learn">Github<i class="fab fa-github"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> BugHackers Hackerspace</h3>
+                                <p class="lead">Diretor geral e head de Tecnologia do Hackerspace de computação da UFAM.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/bug.png" alt="" class="img-fluid alignleft">
+                                <h4>Manaus-AM <small>JUN 2019</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
 
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">Sobre</span>
-										<h2 class="colorlib-heading">Quem é manogray?</h2>
-										<p><strong>Olá, eu sou o Luís</strong>, graduando em Engenharia da Computação pela Universidade Federal do Amazonas - UFAM. Fui bolsista de TI na Assessoria de Relações Internacionais da UFAM, onde criei um sistema de gerenciamento de editais de mobilidade acadêmica utilizando Grails. Fui interno do programa Summer Job do CESAR - Instituto de Inovação, onde desenvolvi uma rede neural artificial através do Keras, para predição de variação nos dimensionais dos produtos da Mondelez International. Em junho de 2019, assumi como diretor geral e head de Tecnologia do BugHackers Hackerspace, o hackerspace de computação da UFAM.</p><p>Já participei de 5 hackathons onde foi premiado em 3, no 1º Amazon Hackfest, Global Legal Hackathon Manaus 2019 e no Inova Manaus 2019. Atualmente estou estagiando na divisão de tecnologia do Tribunal de Contas do Estado do Amazonas. Tenho conhecimentos em PHP, JavaScript, Nodejs, HTML, CSS, SQL, Python e Groovy.</p>
-									</div>
-								</div>
-							</div>
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> AAKA-DO</h3>
+                                <p class="lead">Criação e manutenção do site da Associação Amazonense de Karate-Do. </p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/l.jpg" alt="" class="img-fluid alignleft">
+                                <h4>Manaus-AM <small>NOV 2017 - DEZ 2019</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> CESAR</h3>
+                                <p class="lead">Interno do programa Summer Job onde desenvolvemos um sistema inteligente para variações de tamanho dos produtos da Mondelez International.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/cesar.png" alt="" class="img-fluid alignleft">
+                                <h4>Recife-PE <small>JAN 2019 - FEV 2019</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> UFAM</h3>
+                                <p class="lead">Trabalhei, através da Assessoria de Relações Internacionais e Interinstitucionais, no desenvolvimento de um sistema de inscrição em Editais de mobilidade acadêmica. O sistema foi desenvolvido como plataforma web utilizando o Grails.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/ufam.jpg" alt="" class="img-fluid alignleft">
+                                <h4>Manaus-AM <small>NOV 2018 - JAN 2019</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div id="contact" class="section db">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Contato</h3>
+                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact_form">
+                        <div id="message"></div>
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
 							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-4">
-										<span class="icon2"><i class="fab fa-php"></i></span>
-										<h3>PHP</h3>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
+										<p class="help-block text-danger"></p>
+									</div>
+									<div class="form-group">
+										<input class="form-control" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
+										<p class="help-block text-danger"></p>
+									</div>
+									<div class="form-group">
+										<input class="form-control" id="phone" type="tel" placeholder="Your Phone" required="required" data-validation-required-message="Please enter your phone number.">
+										<p class="help-block text-danger"></p>
 									</div>
 								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-3">
-										<span class="icon2"><i class="fab fa-python"></i></span>
-										<h3>Python</h3>
+								<div class="col-md-6">
+									<div class="form-group">
+										<textarea class="form-control" id="message" placeholder="Your Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+										<p class="help-block text-danger"></p>
 									</div>
 								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-2">
-										<span class="icon2"><i class="fab fa-node"></i></span>
-										<h3>Nodejs</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-1">
-										<span class="icon2"><i class="fab fa-react"></i></span>
-										<h3>React</h3>
-									</div>
+								<div class="clearfix"></div>
+								<div class="col-lg-12 text-center">
+									<div id="success"></div>
+									<button id="sendMessageButton" class="sim-btn btn-hover-new" data-text="Send Message" type="submit">Send Message</button>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+						</form>
+                    </div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
 
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">About</a>
+                        <a href="#">Faq</a>
+                        <a href="#">Contact</a>
+                    </p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">Dominic</a> Design By : 
+					<a href="https://html.design/">html design</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
 
-			
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Serviços</span>
-							<h2 class="colorlib-heading">O que posso fazer?</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="fas fa-mouse-pointer"></i>
-								</span>
-								<div class="desc">
-									<h3>Desenvolvimento Web</h3>
-									<p>Desenvolvimento de sites utilizando Nodejs, PHP, Django ou Grails.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="fas fa-mobile-alt"></i>
-								</span>
-								<div class="desc">
-									<h3>Desenvolvimento Mobile</h3>
-									<p>Desenvolvimento de aplicativos para smartphone utilizando Ionic Framework ou React Native</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="fas fa-desktop"></i>
-								</span>
-								<div class="desc">
-									<h3>Desenvolvimento de Software</h3>
-									<p>Desenvolvimento de aplicativos desktop utilizando Python</p>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</section>
-			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/code.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="298" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Copos de Café</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projetos</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="5" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clientes</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Parceiros</span>
-						</div>
-					</div>
-				</div>
-			</div>
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Skills</span>
-							<h2 class="colorlib-heading animate-box">Vamos aos números</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>PHP</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="95"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-								    <span>95%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Nodejs</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Python</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="65"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:65%">
-								    <span>65%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Ionic Framework</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="55"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:55%">
-								    <span>55%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Grails</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>React</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-7" role="progressbar" aria-valuenow="55"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:55%">
-								    <span>55%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>React Native</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-8" role="progressbar" aria-valuenow="50"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								    <span>50%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Arduino</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-9" role="progressbar" aria-valuenow="65"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:65%">
-								    <span>65%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
 
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Educação</span>
-							<h2 class="colorlib-heading animate-box">Vida Acadêmica</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default" style="background: none;">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Graduando em Engenharia da Computação
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Universidade Federal do Amazonas</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default" style="background: none;">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Ensino Médio
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									            <p>Colégio Militar de Salvador</p>
-									        </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experiência</span>
-							<h2 class="colorlib-heading animate-box">Meus trabalhos</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-							
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="fas fa-pen"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Estagiário de TI - Tribunal de Contas do Estado do Amazonas, Manaus-AM</a> <span style="color: #b8b6b4;">SET 2019 - </span></h2>
-					                  <p>Infraestrutura e desenvolvimento de software.</p>
-					               </div>
-					            </div>
-					         </article>
-							
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="fas fa-pen"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Diretor Geral - BugHackers Hackerspace, Manaus-AM</a> <span style="color: #b8b6b4;">JUNHO 2019 - </span></h2>
-					                  <p>Diretor geral e head de Tecnologia do Hackerspace de computação da UFAM.</p>
-					               </div>
-					            </div>
-					         </article>
-
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="fas fa-pen"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Desenvolvedor Web - AAKA-DO, Manaus-AM</a> <span style="color: #b8b6b4;">NOV 2017 - DEZ 2019</span></h2>
-					                  <p>Criação e manutenção do site da Associação Amazonense de Karate-Do.</p>
-					               </div>
-					            </div>
-					         </article>
-							
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="fas fa-pen"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="#">Intern Summer Job - CESAR, Recife-PE</a> <span style="color: #b8b6b4;"> JAN 2019 - FEV 2018</span></h2>
-					                  <p>Interno do programa Summer Job onde desenvolvemos um sistema inteligente para variações de tamanho dos produtos da Mondelez International.</p>
-					               </div>
-					            </div>
-					         </article>
-
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="fas fa-pen"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Estagiário de T.I. - UFAM, Manaus-AM</a> <span style="color: #b8b6b4;"> NOV 2018 - JAN 2018</span></h2>
-					                  <p>Trabalhei, através da Assessoria de Relações Internacionais e 
-										Interinstitucionais, no desenvolvimento de um sistema de inscrição em Editais de 
-										mobilidade acadêmica. O sistema foi desenvolvido como plataforma web utilizando 
-										o Grails.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-		
-
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Manda um oi</span>
-							<h2 class="colorlib-heading">Contato</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-10">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="fas fa-envelope-open-text"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>lgmpf@icomp.ufam.edu.br</p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="fas fa-map-marked-alt"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>Av. General Rodrigo Octávio, 6200, Coroado I - Manaus-AM</p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="fas fa-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>(92) 99462-0290</p>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</section>
-		
-			<div class="colorlib-footer">
-				<p style="text-align: right;"><small>&copy; 
-Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Based in <i class="fas fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
- </span> </small></p>
-			</div>
-
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+</body>
 </html>
-
