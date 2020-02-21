@@ -2208,7 +2208,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color: #541f7b;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -2336,7 +2336,7 @@ select.mobile-device {
 }
 
 .dmtop {
-    background-color: #3C3D41;
+    background-color: #f5f5f5;
     z-index: 100;
     width: 50px;
     height: 50px;
@@ -2347,7 +2347,7 @@ select.mobile-device {
     right: 50px;
     text-align: center;
     font-size: 28px;
-    color: #ffffff !important;
+    color: #333 !important;
     cursor: pointer;
     -webkit-transition: all .7s ease-in-out;
     -moz-transition: all .7s ease-in-out;
